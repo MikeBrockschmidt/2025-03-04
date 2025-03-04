@@ -18,7 +18,8 @@ void main() {
 
   temps.add(weatherData[2]['temp']) ?? 0;
   rainData.add(weatherData[1]['rain']) ?? 0;
-  temps.add(weatherData[0, 2]['wind']); ?? 0;
+  temps.add(weatherData[0]['wind']); ?? 0;
+  temps.add(weatherData[2]['wind']); ?? 0;
 
 // Berechne den Durchschnitt der Temperaturen
 
